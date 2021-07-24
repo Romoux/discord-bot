@@ -7,7 +7,7 @@ const data = require("./data.json")
 const ytdl = require("ytdl-core");
 
 //Prefix\\
-const prefix = data.prefix
+const prefix = "d!"
 
 //Token\\
 Bot.login(process.env.TOKEN);
