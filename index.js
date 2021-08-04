@@ -10,7 +10,7 @@ const ytdl = require("ytdl-core");
 const prefix = data.prefix
 
 //Token\\
-Bot.login(data.token);
+Bot.login(process.env.TOKEN);
 
 //Connection au bot + status\\
 Bot.on('ready', () => {
