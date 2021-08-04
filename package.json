@@ -14,6 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "build": "bower install && grunt build",
     "start": "node index.js"
   },
   "author": "",
