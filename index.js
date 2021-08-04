@@ -14,7 +14,9 @@ Bot.login(process.env.TOKEN);
 
 //PORT\\
 
-const PORT = process.env.PORT
+app.listen(8080, function () {
+  console.log('Example app listening on port 8080!');
+});
 
 
 //Connection au bot + status\\
