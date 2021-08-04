@@ -12,6 +12,14 @@ const prefix = data.prefix
 //Token\\
 Bot.login(process.env.TOKEN);
 
+//PORT\\
+
+const PORT = process.env.PORT || 8080; 
+app.listen(PORT, () => {
+  console.log(`Our app is running on port ${ PORT }`);
+});
+
+
 //Connection au bot + status\\
 Bot.on('ready', () => {
         console.log(`connecter au bot : ${Bot.user.tag}`)
