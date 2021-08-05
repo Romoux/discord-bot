@@ -5,11 +5,14 @@
   "main": "index.js",
   "dependencies": {
     "discord.js": "^12.5.3",
+    "express.js": "^1.0.0",
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.3.0",
     "fluent-ffmpeg": "^2.1.2",
     "opusscript": "^0.0.8",
+    "path.js": "^1.0.7",
     "python": "^0.0.4",
+    "web.js": "^1.0.1",
     "ytdl-core": "^4.9.0"
   },
   "devDependencies": {},

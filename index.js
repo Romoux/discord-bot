@@ -82,9 +82,7 @@ Bot.on('message', async(message) => {
             - d!server : pour voir le nombre de membre (bot + membre) du server.
             - d!ping : pour voir t'a latence.
             - d!say : pour que je parle a ta place.
-
             __Les commandes musique__ :
-
             - d!play + lien youtube : mettre du son dans le vocal.
             - d!skip : skipper ta musique.
             - d!stop : pour arrêter la musique.
